@@ -3,6 +3,7 @@ import React from 'react';
 // Components 
 
 import Header from './components/Header';
+import Home from './components/Home'
 
 // Styles
 
@@ -12,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      Start here.
+      <Home />
       <GlobalStyle />
     </div>
   );
